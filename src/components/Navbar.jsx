@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar(){
     return(
-      <div style={{ display: "flex", gap:"10px", padding: "10px 20px",background: "white"}}>
+      <div className="navbar">
         <span>Portfolio</span>
         <NavLink to="/">Introduction</NavLink>
         <NavLink to="/about">About </NavLink>

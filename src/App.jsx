@@ -7,6 +7,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import { Routes,Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import './App.css'
 
 const App = () => {
   return (
@@ -20,11 +21,11 @@ const App = () => {
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
     </Routes>
-          <About/>
+          {/* <About/>
           <Skills/>
           <ExperienceEducation/>
           <Projects/>
-          <Contact/>
+          <Contact/> */}
     </div>
   )
 }

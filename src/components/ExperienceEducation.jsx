@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExperienceEducation = () => {
   return (
-    <div>
+    <div className="timeline">
         <h1>Experience & Education</h1>
         <div>
             <h2>Education</h2>
@@ -13,6 +13,8 @@ const ExperienceEducation = () => {
             <span>Currently Pursuing | India</span>
             <p>Coursework spanning Python programming, Machine Learning fundamentals, data structures, web development, and AI application development. Complemented academic learning with self-driven projects, tutorials, and hands-on exploration of industry tools and frameworks.</p>
 
+                <br/>
+                <br/>
             <h2>Experience</h2>
             <h3>Freelance Designer & Developer (Self-employed)</h3>
 

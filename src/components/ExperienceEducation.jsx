@@ -3,7 +3,8 @@ import React from 'react'
 const ExperienceEducation = () => {
   return (
     <div className="timeline">
-        <h1>Experience & Education</h1>
+        {/* <h1>Experience & Education</h1> */}
+        <h1>Education</h1>
         <div>
             <h2>Education</h2>
             <h3>Bachelor of Computer Applications (BCA)</h3>
@@ -15,7 +16,7 @@ const ExperienceEducation = () => {
 
                 <br/>
                 <br/>
-            <h2>Experience</h2>
+            {/* <h2>Experience</h2>
             <h3>Freelance Designer & Developer (Self-employed)</h3>
 
             <h2>Ongoing</h2>
@@ -27,7 +28,7 @@ const ExperienceEducation = () => {
 
             <span>Built a React.js shopping cart application covering state management, component architecture, and responsive UI design
             Developed a CampusConnect prototype during a hackathon — a gamified Campus Ambassador management platform with dual org/ambassador views and a leaderboard
-            Set up Python-based AI agents following industry tutorials, exploring LangChain, CrewAI, AutoGen, and local LLM deployment via Ollama</span>
+            Set up Python-based AI agents following industry tutorials, exploring LangChain, CrewAI, AutoGen, and local LLM deployment via Ollama</span> */}
         </div>
     </div>
   )
